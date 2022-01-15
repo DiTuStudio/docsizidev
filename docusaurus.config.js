@@ -65,7 +65,7 @@ const config = {
             items: [
               {
                 label: 'PetLove',
-                to: '/docs/petlove',
+                to:'/docs/petlove/introduction'
               },
             ],
           },
