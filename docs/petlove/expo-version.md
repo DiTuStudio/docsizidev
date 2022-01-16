@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # PetLove (Expo)
@@ -64,7 +64,6 @@ npm run android
 npm run ios
 ```
 
-<div style="page-break-after: always;"></div>
 ## File structure
 
 ```c

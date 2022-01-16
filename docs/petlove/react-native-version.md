@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # PetLove (React Native)
@@ -63,7 +63,6 @@ If you develop with iOS application
 react-native run-ios
 ```
 
-<div style="page-break-after: always;"></div>
 ## File structure
 
 ```c
