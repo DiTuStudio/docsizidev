@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# PetLove
+# Introduction
 
 PetLove is a React Native UIKIT template application.
