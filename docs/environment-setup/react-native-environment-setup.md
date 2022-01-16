@@ -4,7 +4,6 @@ title: React Native
 sidebar_position: 1
 ---
 
-
 ## Install Node
 
 Go to <https://nodejs.org/en/download/>, download latest LTS version then install it.
@@ -52,6 +51,7 @@ Next, select the "SDK Tools" tab and check the box next to "Show Package Details
 
 Finally, click "Apply" to download and install the Android SDK and related build tools.
 
+<div style="page-break-after: always;"></div>
 ### 3. Configure the ANDROID_HOME environment variable
 
 The React Native tools require some environment variables to be set up in order to build apps with native code.
