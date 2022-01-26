@@ -1,34 +1,34 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TimiStudio',
-  tagline: 'Documents of all products.',
-  url: 'https://docs.timistudio.dev',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'timivietnam', // Usually your GitHub org/user name.
-  projectName: 'timistudio-docs', // Usually your repo name.
+  title: "TimiStudio",
+  tagline: "Documents of all products.",
+  url: "https://docs.timistudio.dev",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "timivietnam", // Usually your GitHub org/user name.
+  projectName: "timistudio-docs", // Usually your repo name.
   trailingSlash: false,
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl: 'https://github.com/timivietnam/timistudio-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -38,60 +38,64 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'TimiStudio',
+        title: "TimiStudio",
         logo: {
-          alt: 'TimiStudio Logo',
-          src: 'img/logo.svg',
+          alt: "TimiStudio Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Docs",
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/facebook/docusaurus",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Products',
+            title: "Products",
             items: [
               {
-                label: 'PetLove',
-                to:'/docs/petlove/introduction'
+                label: "PetLove",
+                to: "/docs/petlove/introduction",
+              },
+              {
+                label: "Doctor Plus",
+                to: "/docs/doctorplus/introduction",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Facebook',
-                href: 'https://www.facebook.com/timistudio.dev'
+                label: "Facebook",
+                href: "https://www.facebook.com/timistudio.dev",
               },
               {
-                label: 'Codecanyon',
-                href: 'https://codecanyon.net/user/timistudio/portfolio'
-              }
+                label: "Codecanyon",
+                href: "https://codecanyon.net/user/timistudio/portfolio",
+              },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Homepage',
-                href: 'https://timistudio.dev',
+                label: "Homepage",
+                href: "https://timistudio.dev",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/timivietnam',
+                label: "GitHub",
+                href: "https://github.com/timivietnam",
               },
             ],
           },
