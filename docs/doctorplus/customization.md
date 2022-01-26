@@ -19,7 +19,7 @@ const Colors = {
 export default Colors;
 ```
 
-## 1. Theme Variables
+## 2. Theme Variables
 
 - src/configs/Theme.ts
 
