@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# PetLove (Expo)
+# CoSpace (Expo)
 
 ## Environment confirmation
 
@@ -67,29 +67,24 @@ npm run ios
 ## File structure
 
 ```c
+- assets/                                     # Image asset files
+- components/                                 # React Components
+- constants/                                  # Project constant files
+- hooks/                                      # React hooks
+- i18n/                                       # Internationalization files
+- navigation/                                 # React native navigation
+- screens/                                    # Project screens
+- styles/                                     # Project styles
+- utils/                                      # Helper files
 - App.tsx
 - AuthContext.tsx
 - ThemeContext.tsx
-- __tests__/
 - app.json
-- assets/                                     # Image asset files
-- babel.config.js
-- components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
 - index.js
-- metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
+- babel.config.js
 - package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
-- screens/                                    # Project screens
-- styles/                                     # Project styles
 - tsconfig.json                               # Typescript config
-- utils/                                      # Helper files
+- react-native-web-refresh-control.d.ts
 ```
 
 ## SUPPORT INFORMATION

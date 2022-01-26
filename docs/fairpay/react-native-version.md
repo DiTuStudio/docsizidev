@@ -1,14 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# PetLove (Expo)
+# FairPay (React Native)
 
 ## Environment confirmation
 
-In Expo template application, please setup environment follow Expo environment setup guide first.
+In React Native template application, please setup environment follow React Native environment setup guide first.
 
-[https://docs.timistudio.dev/docs/environment-setup/expo-environment-setup](/docs/environment-setup/expo-environment-setup)
+[https://docs.timistudio.dev/docs/environment-setup/react-native-environment-setup](/docs/environment-setup/react-native-environment-setup)
 
 Then to confirm all setup is ok, please execute command below to verify.
 
@@ -21,9 +21,6 @@ v14.17.5
 
 $ npm -v
 6.14.14
-
-$ expo --version
-5.0.3
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
@@ -48,48 +45,46 @@ cd <react-native-project-root>
 npm install
 ```
 
+Then, start Metro with command below
+
+```bash
+npx react-native start
+```
+
 Finally start simulator with command below
 
 ```bash
-yarn android
-# or
-yarn ios
+react-native run-android
 ```
 
-If you are using npm without yarn
+If you develop with iOS application
 
 ```bash
-npm run android
-# or
-npm run ios
+react-native run-ios
 ```
 
 ## File structure
 
 ```c
-- App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
 - __tests__/
-- app.json
+- android/                                    # ReactNative default android files
+- ios/                                        # ReactNative default iOS files
 - assets/                                     # Image asset files
-- babel.config.js
 - components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
+- constants/                                  # Project constant files
 - hooks/                                      # React hooks
 - i18n/                                       # Internationalization files
-- index.js
-- metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
-- package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
+- navigation/                                 # React native navigation
 - screens/                                    # Project screens
-- styles/                                     # Project styles
-- tsconfig.json                               # Typescript config
 - utils/                                      # Helper files
+- App.tsx
+- ThemeContext.tsx
+- index.js
+- babel.config.js
+- metro.config.js                             # Metro config
+- package.json                                # Node packages
+- react-native.config.js
+- tsconfig.json                               # Typescript config
 ```
 
 ## SUPPORT INFORMATION

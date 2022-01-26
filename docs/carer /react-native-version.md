@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# PetLove (React Native)
+# Carer (React Native)
 
 ## Environment confirmation
 
@@ -66,31 +66,29 @@ react-native run-ios
 ## File structure
 
 ```c
-- App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
-- __tests__/
 - android/                                    # ReactNative default android files
-- app.json
-- assets/                                     # Image asset files
-- babel.config.js
-- components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- index.js
 - ios/                                        # ReactNative default iOS files
+- src/actions/                                # React redux actions
+- src/api/                                    # Project config api
+- src/assets/                                 # Image asset files
+- src/components/                             # React components
+- src/config/                                 # React config
+- src/element/                                # React element
+- src/fonts/                                  # React fonts
+- src/hooks/                                  # React hooks
+- src/lib/                                    # React library
+- src/navigation/                             # React native navigation
+- src/reducers/                               # React redux reducers
+- src/sagas/                                  # React redux sagas
+- src/screens/                                # Project screens
+- src/store/                                  # React redux store
+- src/svgs/                                   # React svg files
+- src/utils/                                  # Helper files
+- index.js
+- babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
 - package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
-- screens/                                    # Project screens
-- styles/                                     # Project styles
 - tsconfig.json                               # Typescript config
-- utils/                                      # Helper files
 ```
 
 ## SUPPORT INFORMATION

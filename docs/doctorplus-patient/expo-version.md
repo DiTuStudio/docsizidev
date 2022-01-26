@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# PetLove (Expo)
+# Doctor Plus - Patient (Expo)
 
 ## Environment confirmation
 
@@ -67,29 +67,24 @@ npm run ios
 ## File structure
 
 ```c
+- assets/                                     # Project fonts,icon and splash screen
+- src/components/                             # React Components
+- src/configs/                                # React configs and constant files
+- src/container/                              # Project screens
+- src/hooks/                                  # React hooks
+- src/images/                                 # Image asset files
+- src/lib/                                    # Project library 
+- src/constants/                              # Project constant files
+- src/navigation/                             # React Native Navigation
+- src/redux/                                  # React Redux files
+- src/style/                                  # Project global styles
+- src/type/                                   # Project global types
+- src/utils/                                  # Helper files
+- app.json                                    # App config
 - App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
-- __tests__/
-- app.json
-- assets/                                     # Image asset files
-- babel.config.js
-- components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- index.js
-- metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
+- babel.config.js                             # Babel config
 - package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
-- screens/                                    # Project screens
-- styles/                                     # Project styles
 - tsconfig.json                               # Typescript config
-- utils/                                      # Helper files
 ```
 
 ## SUPPORT INFORMATION

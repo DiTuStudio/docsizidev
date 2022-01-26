@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# PetLove (React Native)
+# Abc (React Native)
 
 ## Environment confirmation
 
@@ -66,31 +66,21 @@ react-native run-ios
 ## File structure
 
 ```c
-- App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
-- __tests__/
 - android/                                    # ReactNative default android files
-- app.json
-- assets/                                     # Image asset files
-- babel.config.js
-- components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- index.js
 - ios/                                        # ReactNative default iOS files
+- src/assets/                                 # Image asset files
+- src/components/                             # React components
+- src/data/                                   # React data
+- src/help/                                   # Helper files
+- src/nav/                                    # React native navigation
+- src/screens/                                # Project screens
+- src/svgs/                                   # Svg files
+- src/utils/                                  # Helper files
+- index.js
+- babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
 - package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
-- screens/                                    # Project screens
-- styles/                                     # Project styles
 - tsconfig.json                               # Typescript config
-- utils/                                      # Helper files
 ```
 
 ## SUPPORT INFORMATION

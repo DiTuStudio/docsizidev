@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# PetLove (React Native)
+# Doctor Plus - Doctor (React Native)
 
 ## Environment confirmation
 
@@ -66,31 +66,25 @@ react-native run-ios
 ## File structure
 
 ```c
-- App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
-- __tests__/
 - android/                                    # ReactNative default android files
-- app.json
-- assets/                                     # Image asset files
-- babel.config.js
-- components/                                 # React Components
-- constants                                   # Project constant files
-- declarations.d.ts                           # SVG declare
-- highcharts-react-native.ts                  # Highcharts declare
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- index.js
 - ios/                                        # ReactNative default iOS files
+- src/components/                             # React Components
+- src/configs/                                # React configs and constant files
+- src/container/                              # Project screens
+- src/hooks/                                  # React hooks
+- src/images/                                 # Image asset files
+- src/constants/                              # Project constant files
+- src/navigation/                             # React Native Navigation
+- src/redux/                                  # React Redux files
+- src/style/                                  # Project global styles
+- src/type/                                   # Project global types
+- src/utils/                                  # Helper files
+- App.tsx
+- index.js
+- babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
-- navigation/                                 # React Native Navigations
 - package.json                                # Node packages
-- react-native-web-refresh-control.d.ts
-- react-native.config.js
-- screens/                                    # Project screens
-- styles/                                     # Project styles
 - tsconfig.json                               # Typescript config
-- utils/                                      # Helper files
 ```
 
 ## SUPPORT INFORMATION

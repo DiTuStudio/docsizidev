@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Doctor Plus (Expo)
+# Carer (Expo)
 
 ## Environment confirmation
 
@@ -68,18 +68,22 @@ npm run ios
 
 ```c
 - assets/                                     # Project fonts,icon and splash screen
-- src/components/                             # React Components
-- src/configs/                                # React configs and constant files
-- src/container/                              # Project screens
+- src/actions/                                # React redux actions
+- src/api/                                    # Project config api
+- src/assets/                                 # Image asset files
+- src/components/                             # React components
+- src/config/                                 # React config
+- src/element/                                # React element
+- src/fonts/                                  # React fonts
 - src/hooks/                                  # React hooks
-- src/images/                                 # Image asset files
-- src/lib/                                    # Project library 
-- src/constants/                              # Project constant files
-- src/navigation/                             # React Native Navigation
-- src/redux/                                  # React Redux files
-- src/style/                                  # Project global styles
-- src/type                                    # Project global types
-- src/utils                                   # Helper files
+- src/lib/                                    # React library
+- src/navigation/                             # React native navigation
+- src/reducers/                               # React redux reducers
+- src/sagas/                                  # React redux sagas
+- src/screens/                                # Project screens
+- src/store/                                  # React redux store
+- src/svgs/                                   # React svg files
+- src/utils/                                  # Helper files
 - app.json                                    # App config
 - App.tsx
 - babel.config.js                             # Babel config

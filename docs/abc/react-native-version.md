@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Doctor Plus (React Native)
+# Abc (React Native)
 
 ## Environment confirmation
 
@@ -68,18 +68,14 @@ react-native run-ios
 ```c
 - android/                                    # ReactNative default android files
 - ios/                                        # ReactNative default iOS files
-- src/components/                             # React Components
-- src/configs/                                # React configs and constant files
-- src/container/                              # Project screens
+- src/assets/                                 # Image asset files
+- src/components/                             # React components
+- src/data/                                   # React data
 - src/hooks/                                  # React hooks
-- src/images/                                 # Image asset files
-- src/constants/                              # Project constant files
-- src/navigation/                             # React Native Navigation
-- src/redux/                                  # React Redux files
-- src/style/                                  # Project global styles
-- src/type                                    # Project global types
-- src/utils                                   # Helper files
-- App.tsx
+- src/nav/                                    # React native navigation
+- src/screens/                                # Project screens
+- src/svgs/                                   # Svg files
+- src/utils/                                  # Helper files
 - index.js
 - babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
