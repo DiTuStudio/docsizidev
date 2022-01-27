@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-FairPay is a React Native UIKIT template application.
+Fairpay is a React Native UIKIT template application.
 
 ## Reference
 

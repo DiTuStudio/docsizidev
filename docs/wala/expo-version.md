@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Fairpay (Expo)
+# Wala (Expo)
 
 ## Environment confirmation
 
@@ -67,23 +67,29 @@ npm run ios
 ## File structure
 
 ```c
-- assets/                                     # Image asset files
-- components/                                 # React Components
-- constants/                                  # Project constant files
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- navigation/                                 # React native navigation
-- screens/                                    # Project screens
-- utils/                                      # Helper files
-- App.tsx
-- AuthContext.tsx
-- ThemeContext.tsx
-- app.json
-- index.js
-- babel.config.js
+- assets/                                     # Project fonts,icon and splash screen
+- app/actions/                                # React redux actions
+- app/assets/                                 # Image asset files
+- app/components/                             # React components
+- app/config/                                 # React config
+- app/help/                                   # Helper files
+- app/hooks/                                  # React hooks
+- app/lib/                                    # React library
+- app/models/                                 # React config redux
+- app/navigation/                             # React native navigation
+- app/reducers/                               # React redux reducers
+- app/sagas/                                  # React redux sagas
+- app/screens/                                # Project screens
+- app/services/                               # Project services
+- app/store/                                  # React redux store
+- app/svgs/                                   # Svg files
+- app/ultis/                                  # Helper files
+- app/utils/                                  # Helper files
+- app.json                                    # App config
+- App.js
+- babel.config.js                             # Babel config
 - package.json                                # Node packages
 - tsconfig.json                               # Typescript config
-- react-native-web-refresh-control.d.ts
 ```
 
 ## SUPPORT INFORMATION

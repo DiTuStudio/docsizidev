@@ -64,13 +64,73 @@ const config = {
             title: "Products",
             items: [
               {
-                label: "PetLove",
-                to: "/docs/petlove/introduction",
+                label: "Abc",
+                to: "/docs/abc/introduction",
               },
               {
-                label: "Doctor Plus",
-                to: "/docs/doctorplus/introduction",
+                label: "Carer",
+                to: "/docs/carer/introduction",
               },
+              {
+                label: "CoSpace",
+                to: "/docs/cospace/introduction",
+              },
+              {
+                label: "Doctor Plus -  Doctor",
+                to: "/docs/doctorplus-doctor/introduction",
+              },
+              {
+                label: "Doctor Plus - Patient",
+                to: "/docs/doctorplus-patient/introduction",
+              },
+              // {
+              //   label: "Evez",
+              //   to: "/docs/evez/introduction",
+              // },
+              // {
+              //   label: "Fairpay",
+              //   to: "/docs/fairpay/introduction",
+              // },
+              // {
+              //   label: "Finey",
+              //   to: "/docs/finey/introduction",
+              // },
+              // {
+              //   label: "Fitness Love",
+              //   to: "/docs/fitness-love/introduction",
+              // },
+              // {
+              //   label: "Healer",
+              //   to: "/docs/healer/introduction",
+              // },
+              // {
+              //   label: "Imba",
+              //   to: "/docs/imba/introduction",
+              // },
+              // {
+              //   label: "Kid Draw",
+              //   to: "/docs/kid-draw/introduction",
+              // },
+              // {
+              //   label: "Metmoi",
+              //   to: "/docs/met-moi/introduction",
+              // },
+              // {
+              //   label: "Monsy",
+              //   to: "/docs/monsy/introduction",
+              // },
+              // {
+              //   label: "PetLove",
+              //   to: "/docs/petlove/introduction",
+              // },
+              // {
+              //   label: "Triplan",
+              //   to: "/docs/triplan/introduction",
+              // },
+              // {
+              //   label: "Wala",
+              //   to: "/docs/wala/introduction",
+              // },
             ],
           },
           {

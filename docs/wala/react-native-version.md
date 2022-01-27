@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Fairpay (React Native)
+# Wala (React Native)
 
 ## Environment confirmation
 
@@ -66,24 +66,29 @@ react-native run-ios
 ## File structure
 
 ```c
-- __tests__/
 - android/                                    # ReactNative default android files
 - ios/                                        # ReactNative default iOS files
-- assets/                                     # Image asset files
-- components/                                 # React Components
-- constants/                                  # Project constant files
-- hooks/                                      # React hooks
-- i18n/                                       # Internationalization files
-- navigation/                                 # React native navigation
-- screens/                                    # Project screens
-- utils/                                      # Helper files
-- App.tsx
-- ThemeContext.tsx
+- app/actions/                                # React redux actions
+- app/assets/                                 # Image asset files
+- app/components/                             # React components
+- app/config/                                 # React config
+- app/help/                                   # Helper files
+- app/hooks/                                  # React hooks
+- app/lib/                                    # React library
+- app/models/                                 # React config redux
+- app/navigation/                             # React native navigation
+- app/reducers/                               # React redux reducers
+- app/sagas/                                  # React redux sagas
+- app/screens/                                # Project screens
+- app/services/                               # Project services
+- app/store/                                  # React redux store
+- app/svgs/                                   # Svg files
+- app/ultis/                                  # Helper files
+- app/utils/                                  # Helper files
 - index.js
-- babel.config.js
+- babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
 - package.json                                # Node packages
-- react-native.config.js
 - tsconfig.json                               # Typescript config
 ```
 
