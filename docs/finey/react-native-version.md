@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Evez (React Native)
+# Finey (React Native)
 
 ## Environment confirmation
 
@@ -66,16 +66,23 @@ react-native run-ios
 ## File structure
 
 ```c
+- src/Libraries/                              # React library
+- __tests__/
 - android/                                    # ReactNative default android files
 - ios/                                        # ReactNative default iOS files
-- src/assets/                                 # Image asset files
-- src/components/                             # React components
-- src/data/                                   # React data
-- src/help/                                   # Helper files
-- src/nav/                                    # React native navigation
-- src/screens/                                # Project screens
-- src/svgs/                                   # Svg files
-- src/utils/                                  # Helper files
+- app/res/fonts/                              # React fonts
+- app/res/icon/                               # Icon asset files
+- app/res/images/                             # Image asset files
+- app/res/string/                             # Internationalization files
+- app/res/style/                              # Project global styles
+- app/src/api/                                # Project config api
+- app/src/component/                          # React components
+- app/src/config/                             # React config
+- app/src/mobx/
+- app/src/realm/
+- app/src/router/                             # React native navigation
+- app/src/screen/                             # Project screens
+- app/src/util/                               # Helper files
 - index.js
 - babel.config.js                             # Babel config
 - metro.config.js                             # Metro config
