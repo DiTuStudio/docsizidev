@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Finey (Expo)
+# Kid Draw (Expo)
 
 ## Environment confirmation
 
@@ -68,20 +68,22 @@ npm run ios
 
 ```c
 - assets/                                     # Project fonts,icon and splash screen
-- app/Libraries/                              # React library
-- app/res/fonts/                              # React fonts
+- app/res/assets/                             # Image asset files
 - app/res/icon/                               # Icon asset files
 - app/res/images/                             # Image asset files
+- app/res/images_paint/                       # Image asset files
 - app/res/string/                             # Internationalization files
 - app/res/style/                              # Project global styles
 - app/src/api/                                # Project config api
 - app/src/component/                          # React components
 - app/src/config/                             # React config
 - app/src/mobx/
+- app/src/model/
 - app/src/realm/
 - app/src/router/                             # React native navigation
 - app/src/screen/                             # Project screens
 - app/src/util/                               # Helper files
+- app/src/validate/
 - app.json                                    # App config
 - App.js
 - babel.config.js                             # Babel config

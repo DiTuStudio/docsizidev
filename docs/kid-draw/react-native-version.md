@@ -1,14 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Finey (Expo)
+# Kid Draw (React Native)
 
 ## Environment confirmation
 
-In Expo template application, please setup environment follow Expo environment setup guide first.
+In React Native template application, please setup environment follow React Native environment setup guide first.
 
-[https://docs.timistudio.dev/docs/environment-setup/expo-environment-setup](/docs/environment-setup/expo-environment-setup)
+[https://docs.timistudio.dev/docs/environment-setup/react-native-environment-setup](/docs/environment-setup/react-native-environment-setup)
 
 Then to confirm all setup is ok, please execute command below to verify.
 
@@ -21,9 +21,6 @@ v14.17.5
 
 $ npm -v
 6.14.14
-
-$ expo --version
-5.0.3
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
@@ -48,43 +45,50 @@ cd <react-native-project-root>
 npm install
 ```
 
+Then, start Metro with command below
+
+```bash
+npx react-native start
+```
+
 Finally start simulator with command below
 
 ```bash
-yarn android
-# or
-yarn ios
+react-native run-android
 ```
 
-If you are using npm without yarn
+If you develop with iOS application
 
 ```bash
-npm run android
-# or
-npm run ios
+react-native run-ios
 ```
 
 ## File structure
 
 ```c
-- assets/                                     # Project fonts,icon and splash screen
-- app/Libraries/                              # React library
-- app/res/fonts/                              # React fonts
+- src/Libraries/                              # React library
+- __tests__/
+- android/                                    # ReactNative default android files
+- ios/                                        # ReactNative default iOS files
+- app/res/assets/                             # Image asset files
 - app/res/icon/                               # Icon asset files
 - app/res/images/                             # Image asset files
+- app/res/images_paint/                       # Image asset files
 - app/res/string/                             # Internationalization files
 - app/res/style/                              # Project global styles
 - app/src/api/                                # Project config api
 - app/src/component/                          # React components
 - app/src/config/                             # React config
 - app/src/mobx/
+- app/src/model/
 - app/src/realm/
 - app/src/router/                             # React native navigation
 - app/src/screen/                             # Project screens
 - app/src/util/                               # Helper files
-- app.json                                    # App config
-- App.js
+- app/src/validate/                           
+- index.js
 - babel.config.js                             # Babel config
+- metro.config.js                             # Metro config
 - package.json                                # Node packages
 - tsconfig.json                               # Typescript config
 ```
