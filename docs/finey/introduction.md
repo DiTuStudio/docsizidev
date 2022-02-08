@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Introduction
 
-Finey is a React Native and Flutter template application.
+Finey is a React Native template application.
+
+In addition, Finey has a mobile version of Flutter with demo UI for Android and iPhone.
 
 ## Reference
 
