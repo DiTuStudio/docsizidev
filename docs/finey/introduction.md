@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Finey is a React Native template application.
+Finey is a React Native and Flutter template application.
 
 ## Reference
 

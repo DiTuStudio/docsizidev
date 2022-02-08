@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Triplan is a React Native UI Lib template application.
+Triplan is a React Native and Flutter UI Lib template application.
 
 ## Reference
 

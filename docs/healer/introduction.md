@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Healer is a React Native template application.
+Healer is a React Native and Flutter template application.
 
 ## Reference
 
