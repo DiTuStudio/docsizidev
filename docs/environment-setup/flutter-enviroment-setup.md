@@ -37,7 +37,7 @@ Once setup has finalized and you're presented with the Welcome screen, proceed t
 
 ### 2. Install the Android SDK
 
-Android Studio installs the latest Android SDK by default. Building a React Native app with native code, however, requires the Android 10 (Q) SDK in particular. Additional Android SDKs can be installed through the SDK Manager in Android Studio.
+Android Studio installs the latest Android SDK by default. Building a Flutter app with native code, however, requires the Android 10 (Q) SDK in particular. Additional Android SDKs can be installed through the SDK Manager in Android Studio.
 
 To do that, open Android Studio, click on "Configure" button and select "SDK Manager".
 
@@ -74,7 +74,7 @@ Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the c
 
 ## iOS development environment
 
-You will Xcode and CocoaPods.
+You will need Xcode and CocoaPods.
 
 While you can use any editor of your choice to develop your app, you will need to install Xcode in order to set up the necessary tooling to build your Flutter app for iOS.
 
