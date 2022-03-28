@@ -1,19 +1,143 @@
-# 1. Install docker (OK)
-Follow offical docs
+# 1. Install docker
 
-TODO: Dung
+Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository
 
-# 2. Install docker-compose (OK)
-Follow offical docs
+## Set up the repository
 
-TODO: Dung
+```
+1. sudo apt-get update
+2. sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+3. echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+4. (lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
 
-# 3. Install nginx (OK)
-Follow offical docs
+## Install Docker Engine
 
-TODO: Dung
+```
+1. sudo apt-get update
+2. sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+Then check docker version in your ubuntu:
+
+```
+1. docker version
+```
+
+Output:
+
+```
+Client: Docker Engine - Community
+ Version:           20.10.12
+ API version:       1.41
+ Go version:        go1.16.12
+ Git commit:        e91ed57
+ Built:             Mon Dec 13 11:45:33 2021
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.12
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.16.12
+  Git commit:       459d0df
+  Built:            Mon Dec 13 11:43:42 2021
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.4.13
+  GitCommit:        9cc61520f4cd876b86e77edfeb88fbcd536d1f9d
+ runc:
+  Version:          1.0.3
+  GitCommit:        v1.0.3-0-gf46b6ba
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+```
+
+# 2. Install docker-compose
+
+```
+1. sudo apt update
+2. sudo apt install docker-compose
+```
+
+### Check version docker compose:
+
+```
+1. docker-compose --version
+```
+
+Output:
+
+```
+docker-compose version 1.29.2, build 5becea4c
+```
+
+# 3. Install nginx
+
+## Installing Nginx
+
+```
+1. sudo apt update
+2. sudo apt install nginx
+```
+
+## Adjusting the Firewall
+
+```
+1. sudo ufw app list
+2. sudo ufw allow 'Nginx HTTP'
+3. sudo ufw allow 'OpenSSH'
+4. sudo ufw enable
+5. sudo ufw status
+```
+
+The output will indicated which HTTP traffic is allowed:
+
+```
+Output
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere
+Nginx HTTP                 ALLOW       Anywhere
+OpenSSH (v6)               ALLOW       Anywhere (v6)
+Nginx HTTP (v6)            ALLOW       Anywhere (v6)
+```
+
+## Checking your Web Server
+
+```
+1. systemctl status nginx
+```
+
+Output:
+
+```
+Output
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since Fri 2020-04-20 16:08:19 UTC; 3 days ago
+     Docs: man:nginx(8)
+ Main PID: 2369 (nginx)
+    Tasks: 2 (limit: 1153)
+   Memory: 3.5M
+   CGroup: /system.slice/nginx.service
+           ├─2369 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+           └─2380 nginx: worker process
+```
 
 # 4. Setup nginx
+
 Make a reverse proxy to redirect request to NodeJS Server (Docker)
 
 Edit file `/etc/nginx/sites-available/default`
@@ -38,10 +162,21 @@ server {
 ```
 
 # 5. Run docker
-TODO: Dung
+
+## Add file zip source code in server
 
 ```
-docker-compose up -d
+1. scp <file zip name> user@host:/path/to/destination (Example: scp monsy.zip root@178.128.119.80:/root)
+2. sudo apt install unzip
+3. unzip <file zip name> (Example: unzip monsy.zip)
+4. cd <folder code> (Example: cd monsy)
+```
+
+## Run docker
+
+```
+1. docker-composer up -d
+
 ```
 
 # 6. Point domain
@@ -143,4 +278,3 @@ IMPORTANT NOTES:
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
 ```
-
