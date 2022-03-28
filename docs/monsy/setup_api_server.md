@@ -1,8 +1,13 @@
-# 1. Install docker
+---
+sidebar_position: 4
+---
+
+# Setup Api Server (React Native)
+## 1. Install docker
 
 Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository
 
-## Set up the repository
+### Set up the repository
 
 ```
 1. sudo apt-get update
@@ -16,7 +21,7 @@ Before you install Docker Engine for the first time on a new host machine, you n
 4. (lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-## Install Docker Engine
+### Install Docker Engine
 
 ```
 1. sudo apt-get update
@@ -62,7 +67,7 @@ Server: Docker Engine - Community
   GitCommit:        de40ad0
 ```
 
-# 2. Install docker-compose
+## 2. Install docker-compose
 
 ```
 1. sudo apt update
@@ -81,16 +86,16 @@ Output:
 docker-compose version 1.29.2, build 5becea4c
 ```
 
-# 3. Install nginx
+## 3. Install nginx
 
-## Installing Nginx
+### Installing Nginx
 
 ```
 1. sudo apt update
 2. sudo apt install nginx
 ```
 
-## Adjusting the Firewall
+### Adjusting the Firewall
 
 ```
 1. sudo ufw app list
@@ -114,7 +119,7 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 Nginx HTTP (v6)            ALLOW       Anywhere (v6)
 ```
 
-## Checking your Web Server
+### Checking your Web Server
 
 ```
 1. systemctl status nginx
@@ -136,7 +141,7 @@ Output
            └─2380 nginx: worker process
 ```
 
-# 4. Setup nginx
+## 4. Setup nginx
 
 Make a reverse proxy to redirect request to NodeJS Server (Docker)
 
@@ -161,9 +166,9 @@ server {
 }
 ```
 
-# 5. Run docker
+## 5. Run docker
 
-## Add file zip source code in server
+### Add file zip source code in server
 
 ```
 1. scp <file zip name> user@host:/path/to/destination (Example: scp monsy.zip root@178.128.119.80:/root)
@@ -172,14 +177,14 @@ server {
 4. cd <folder code> (Example: cd monsy)
 ```
 
-## Run docker
+### Run docker
 
 ```
 1. docker-composer up -d
 
 ```
 
-# 6. Point domain
+## 6. Point domain
 
 Get global ip, in our vps, it is `178.128.119.80`
 
@@ -205,7 +210,7 @@ Create A record point to your global IP. Below is sample we point subdomain `dem
 
 ![image](https://user-images.githubusercontent.com/47516405/158398396-c2b614bb-90f0-4aca-8ae6-8077b8cc8021.png)
 
-# 7. Domain for setup ssl
+## 7. Domain for setup ssl
 
 ```
 $ sudo apt install certbot python3-certbot-nginx
