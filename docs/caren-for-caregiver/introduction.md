@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-CarenForCaregiver is a React Native UIKIT template application.
+Caren For Caregiver is a React Native UIKIT template application.
 
 ## Reference
 

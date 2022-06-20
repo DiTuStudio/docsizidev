@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# CarenForFamily (React Native)
+# Caren For Family (React Native)
 
 ## Environment confirmation
 

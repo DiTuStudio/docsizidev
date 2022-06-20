@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-CarenForFamily is a React Native UIKIT template application.
+Caren For Family is a React Native UIKIT template application.
 
 ## Reference
 

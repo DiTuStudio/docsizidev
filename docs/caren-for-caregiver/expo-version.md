@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# CarenForCaregiver (Expo)
+# Caren For Caregiver (Expo)
 
 ## Environment confirmation
 

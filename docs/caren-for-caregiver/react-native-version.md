@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# CarenForCaregiver (React Native)
+# Caren For Caregiver (React Native)
 
 ## Environment confirmation
 

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# CarenForFamily (Expo)
+# Caren For Family (Expo)
 
 ## Environment confirmation
 
