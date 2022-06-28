@@ -95,7 +95,7 @@ react-native run-ios
 
 ## Add more image to app
 
-
+- See here : https://docs.google.com/document/d/1yHxUYAAKTdOe1pzHInaT24ZzlsJd0eBxUbGkMx6okmM/edit?usp=sharing
 
 ## SUPPORT INFORMATION
 

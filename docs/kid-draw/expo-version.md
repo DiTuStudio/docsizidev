@@ -91,6 +91,11 @@ npm run ios
 - tsconfig.json                               # Typescript config
 ```
 
+
+## Add more image to app
+
+- See here : https://docs.google.com/document/d/1yHxUYAAKTdOe1pzHInaT24ZzlsJd0eBxUbGkMx6okmM/edit?usp=sharing
+
 ## SUPPORT INFORMATION
 
 Thank for your purchase, feel free to contact with us if you have any trouble when install application.
