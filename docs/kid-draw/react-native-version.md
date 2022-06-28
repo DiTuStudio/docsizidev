@@ -93,6 +93,10 @@ react-native run-ios
 - tsconfig.json                               # Typescript config
 ```
 
+## Add more image to app
+
+
+
 ## SUPPORT INFORMATION
 
 Thank for your purchase, feel free to contact with us if you have any trouble when install application.
