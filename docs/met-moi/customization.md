@@ -395,7 +395,7 @@ We create our own text , for ease of use and use in different places
 
 ```
 
-#### 2. Container
+#### 3. Container
 
 - Content is `Layout` with flex to 1 and use safe area insets. It renders a `View` element.
 
@@ -409,7 +409,7 @@ We create our own text , for ease of use and use in different places
   </Container>
 ```
 
-#### 3. Content
+#### 4. Content
 
 - Content is ScrollView with helpful style shorthand. It renders a `ScrollView` element.
 
