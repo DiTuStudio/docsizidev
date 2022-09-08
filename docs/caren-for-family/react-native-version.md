@@ -14,13 +14,13 @@ Then to confirm all setup is ok, please execute command below to verify.
 
 ```bash
 $ yarn -v
-1.22.17
+1.22.19
 
 $ node -v
-v14.17.5
+v14.19.3
 
 $ npm -v
-6.14.14
+8.12.1
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
@@ -75,11 +75,12 @@ react-native run-ios
 - hooks/                                      # React hooks
 - i18n/                                       # Internationalization files
 - navigation/                                 # React native navigation
-- screens/                                    # Project screens
+- src/                                        # Project screens
 - styles/                                     # Project styles
 - utils/                                      # Helper files
 - App.tsx
 - ThemeContext.tsx
+- CreditCardContext.tsx
 - index.js
 - babel.config.js
 - metro.config.js                             # Metro config
