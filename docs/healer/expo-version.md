@@ -14,24 +14,24 @@ Then to confirm all setup is ok, please execute command below to verify.
 
 ```bash
 $ yarn -v
-1.22.17
+1.22.19
 
 $ node -v
-v14.17.5
+v14.19.3
 
 $ npm -v
-6.14.14
+8.12.1
 
 $ expo --version
-5.0.3
+6.0.5
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
 
 ```bash
 $ /usr/bin/xcodebuild -version
-Xcode 13.2.1
-Build version 13C100
+Xcode 14.0.0
+Build version 14A309
 ```
 
 ## Run in development
@@ -67,26 +67,18 @@ npm run ios
 ## File structure
 
 ```c
-- assets/                                     # Project fonts,icon and splash screen
-- app/actions/                                # React redux actions
-- app/api/                                    # Project config api
-- app/assets/                                 # Image asset files
-- app/components/                             # React components
-- app/config/                                 # React config
-- app/data/                                   # React data
-- app/elements/                               # React element
-- app/fonts/                                  # React fonts
-- app/img/                                    # Image asset files
-- app/lib/                                    # React library
-- app/navigation/                             # React native navigation
-- app/reducers/                               # React redux reducers
-- app/sagas/                                  # React redux sagas
-- app/screens/                                # Project screens
-- app/store/                                  # React redux store
-- app/styles/                                 # Project styles
-- app/utils/                                  # Helper files
+- assets/                                     # Project logo and splash src
+- src/assets/                                 # Image, Icon, Fonts asset files
+- src/components/                             # React components
+- src/constants/                              # Project constant files
+- src/elements/                               # React element
+- src/navigation/                             # React native navigation
+- src/screens/                                # Project screens
+- src/styles/                                 # Project styles
+- src/hooks/                                  # Project hooks
+- src/utils/                                  # Helper files
 - app.json                                    # App config
-- App.js
+- App.tsx
 - babel.config.js                             # Babel config
 - package.json                                # Node packages
 - tsconfig.json                               # Typescript config
