@@ -14,21 +14,21 @@ Then to confirm all setup is ok, please execute command below to verify.
 
 ```bash
 $ yarn -v
-1.22.17
+1.22.19
 
 $ node -v
-v14.17.5
+v14.19.3
 
 $ npm -v
-6.14.14
+2.12.1
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
 
 ```bash
 $ /usr/bin/xcodebuild -version
-Xcode 13.2.1
-Build version 13C100
+Xcode 14.0
+Build version 14A309
 ```
 
 ## Run in development
