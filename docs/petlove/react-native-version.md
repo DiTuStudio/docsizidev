@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# PetLove (React Native)
+# PetLover (React Native)
 
 ## Environment confirmation
 
