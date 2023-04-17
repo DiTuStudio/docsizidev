@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "TimiStudio",
+  title: "Izidev",
   tagline: "Documents of all products.",
   url: "https://docs.timistudio.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "timivietnam", // Usually your GitHub org/user name.
-  projectName: "timistudio-docs", // Usually your repo name.
+  organizationName: "izidev", // Usually your GitHub org/user name.
+  projectName: "izidev-docs", // Usually your repo name.
   trailingSlash: false,
 
   presets: [
@@ -64,73 +64,9 @@ const config = {
             title: "Products",
             items: [
               {
-                label: "Abc",
-                to: "/docs/abc/introduction",
+                label: "Taearn",
+                to: "/docs/taearn/introduction",
               },
-              {
-                label: "Carer",
-                to: "/docs/carer/introduction",
-              },
-              {
-                label: "CoSpace",
-                to: "/docs/cospace/introduction",
-              },
-              {
-                label: "Doctor Plus -  Doctor",
-                to: "/docs/doctorplus-doctor/introduction",
-              },
-              {
-                label: "Doctor Plus - Patient",
-                to: "/docs/doctorplus-patient/introduction",
-              },
-              // {
-              //   label: "Evez",
-              //   to: "/docs/evez/introduction",
-              // },
-              // {
-              //   label: "Fairpay",
-              //   to: "/docs/fairpay/introduction",
-              // },
-              // {
-              //   label: "Finey",
-              //   to: "/docs/finey/introduction",
-              // },
-              // {
-              //   label: "Fitness Love",
-              //   to: "/docs/fitness-love/introduction",
-              // },
-              // {
-              //   label: "Healer",
-              //   to: "/docs/healer/introduction",
-              // },
-              // {
-              //   label: "Imba",
-              //   to: "/docs/imba/introduction",
-              // },
-              // {
-              //   label: "Kid Draw",
-              //   to: "/docs/kid-draw/introduction",
-              // },
-              // {
-              //   label: "Metmoi",
-              //   to: "/docs/met-moi/introduction",
-              // },
-              // {
-              //   label: "Monsy",
-              //   to: "/docs/monsy/introduction",
-              // },
-              // {
-              //   label: "PetLove",
-              //   to: "/docs/petlove/introduction",
-              // },
-              // {
-              //   label: "Triplan",
-              //   to: "/docs/triplan/introduction",
-              // },
-              // {
-              //   label: "Wala",
-              //   to: "/docs/wala/introduction",
-              // },
             ],
           },
           {
@@ -142,7 +78,7 @@ const config = {
               },
               {
                 label: "Codecanyon",
-                href: "https://codecanyon.net/user/timistudio/portfolio",
+                href: "https://codecanyon.net/user/izidev2023/portfolio",
               },
             ],
           },

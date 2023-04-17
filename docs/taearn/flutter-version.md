@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# Triplan (Flutter)
+# Stacy (Flutter)
 
 ## Environment confirmation
 
@@ -14,18 +14,18 @@ Then to confirm all setup is ok, please execute command below to verify.
 
 ```bash
 $ flutter --version
-Flutter 2.8.1 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 77d935af4d (8 weeks ago) • 2021-12-16 08:37:33 -0800
-Engine • revision 890a5fca2e
-Tools • Dart 2.15.1
+Flutter 3.7.3 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 9944297138 (10 weeks ago) • 2023-02-08 15:46:04 -0800
+Engine • revision 248290d6d5
+Tools • Dart 2.19.2 • DevTools 2.20.1
 ```
 
 If you are using MacOS and work with iOS, please check your XCode is latest version.
 
 ```bash
 $ /usr/bin/xcodebuild -version
-Xcode 13.2.1
-Build version 13C100
+Xcode 14.2
+Build version 14C18
 ```
 
 ## Run in development
@@ -69,28 +69,11 @@ flutter run
 
 Thank for your purchase, feel free to contact with us if you have any trouble when install application.
 
-- Email: admin@timistudio.dev
+- Email: izidev2023@gmail.com
 - Facebook official fanpage: <https://www.facebook.com/timistudio.dev>
 
 ### OUR PRODUCTS:
 
-- Fairpay – Split Bill React Native: https://1.envato.market/Kez64a
-- Monsy Money Manager Full Application: https://1.envato.market/do9d3k
-- Runner Flutter Full Application: https://1.envato.market/qnAOaq
-- Triplan Flutter Template: https://1.envato.market/doyJdK
-- Stacy Roommate Flutter Template: https://1.envato.market/YgR1Xj
-- Fitness Love: https://1.envato.market/x9kDjx
-- Doctor Plus – Patient React Native: https://1.envato.market/x99yJR
-- Doctor Plus – Doctor React Native: https://1.envato.market/x07Bk
-- Carer – Patient React Native App Template: https://1.envato.market/RzAzy
-- Wala – Food React Native: http://1.envato.market/qbXgy
-- Evez React Native: https://1.envato.market/emE1r
-- Finany – Cashflow Manager App: https://1.envato.market/d1v17
-- Imba React Native: https://1.envato.market/M3KWM
-- Healer React Native: https://1.envato.market/v6BDd
-- Healer Flutter: https://1.envato.market/b1xk9
-- Finey React Rative: https://1.envato.market/dJQyM
-- Finey Flutter: https://1.envato.market/RdB09
-- Kid Draw React Native: https://1.envato.market/Z3nQk
+- Taearn Make Money App Flutter Template: https://codecanyon.net/item/taearn-make-money-flutter-app/44937626
 
 Thank you!
