@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "DiTuStudio", // Usually your GitHub org/user name.
-  projectName: "docsizidev", // Usually your repo name.
+  projectName: "izidev-docs", // Usually your repo name.
   trailingSlash: false,
 
   presets: [
