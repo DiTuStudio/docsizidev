@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Izidev",
   tagline: "Documents of all products.",
-  url: "https://docs.timistudio.dev",
+  url: "https://docs.izidev.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "izidev", // Usually your GitHub org/user name.
-  projectName: "izidev-docs", // Usually your repo name.
+  organizationName: "DiTuStudio", // Usually your GitHub org/user name.
+  projectName: "docsizidev", // Usually your repo name.
   trailingSlash: false,
 
   presets: [
@@ -38,9 +38,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "TimiStudio",
+        title: "Izidev",
         logo: {
-          alt: "TimiStudio Logo",
+          alt: "Izidev Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -86,17 +86,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Homepage",
-                href: "https://timistudio.dev",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/timivietnam",
+                href: "https://github.com/DiTuStudio",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TimiStudio, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Izidev, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,1 +1,1 @@
-USE_SSH=true GIT_USER=timivietnam yarn deploy
+USE_SSH=true GIT_USER=DiTuStudio yarn deploy

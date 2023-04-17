@@ -8,7 +8,7 @@ sidebar_position: 2
 
 In Flutter application, please setup environment follow Flutter environment setup guide first.
 
-[https://docs.timistudio.dev/docs/environment-setup/flutter-environment-setup](/docs/environment-setup/flutter-environment-setup)
+[https://docs.izidev.dev/docs/environment-setup/flutter-environment-setup](/docs/environment-setup/flutter-environment-setup)
 
 Then to confirm all setup is ok, please execute command below to verify.
 
