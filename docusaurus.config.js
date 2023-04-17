@@ -9,7 +9,7 @@ const config = {
   title: "Izidev",
   tagline: "Documents of all products.",
   url: "https://docs.izidev.dev",
-  baseUrl: "/",
+  baseUrl: "/docs-all-project-izidev/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
