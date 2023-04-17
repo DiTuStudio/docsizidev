@@ -70,7 +70,7 @@ flutter run
 Thank for your purchase, feel free to contact with us if you have any trouble when install application.
 
 - Email: izidev2023@gmail.com
-- Facebook official fanpage: <https://www.facebook.com/timistudio.dev>
+- Facebook official fanpage: <https://www.facebook.com/people/Izidev/100089840067410>
 
 ### OUR PRODUCTS:
 

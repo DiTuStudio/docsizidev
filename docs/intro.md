@@ -11,7 +11,7 @@ We are team UI/UX and Developer Flutter.
 Please bookmark this link to see more items and new updated:
 
 - <https://codecanyon.net/user/izidev2023>
-- <https://www.facebook.com/timistudio.dev>
+- <https://www.facebook.com/people/Izidev/100089840067410>
 
 ### OUR PRODUCTS:
 

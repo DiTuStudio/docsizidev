@@ -9,7 +9,7 @@ const config = {
   title: "Izidev",
   tagline: "Documents of all products.",
   url: "https://docs.izidev.dev",
-  baseUrl: "/docs-all-project-izidev/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -74,7 +74,7 @@ const config = {
             items: [
               {
                 label: "Facebook",
-                href: "https://www.facebook.com/timistudio.dev",
+                href: "https://www.facebook.com/people/Izidev/100089840067410",
               },
               {
                 label: "Codecanyon",
